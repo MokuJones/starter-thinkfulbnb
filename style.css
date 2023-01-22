@@ -56,7 +56,7 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 0px 20px;
   text-align: center;
 }
 
@@ -84,6 +84,10 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
+}
+
+#menu {
+  padding-bottom: 15px;
 }
 
 /* -------  Search Form ------- */
@@ -139,7 +143,7 @@ footer p {
 @media all and (min-width: 480px) {
 
   body {
-    padding: 0;
+    padding: 0px;
   }
 
   header {
@@ -147,8 +151,8 @@ footer p {
     justify-content: space-between;
   }
 
-  nav {
-    padding-top: 15px;
+  #menu {
+    flex-wrap: wrap;
   }
 
   form {
