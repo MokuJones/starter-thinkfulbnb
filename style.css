@@ -153,6 +153,7 @@ footer p {
 
   #menu {
     flex-wrap: wrap;
+    line-height: 1;
   }
 
   form {
